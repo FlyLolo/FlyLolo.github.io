@@ -20,7 +20,7 @@ jobs:
       #  run: npm install && npm run build
 
       - name: Deploy
-        uses: flylolo/FlyLolo.github.io@master
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
